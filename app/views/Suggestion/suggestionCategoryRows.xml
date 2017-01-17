@@ -1,8 +1,0 @@
-<Alloy>
-	<TableViewRow id="tblRow">
-		<View id="viewNotificationRow">
-			<Label id="labelSuggestion"></Label>
-			<View id="viewLine"></View>
-		</View>
-	</TableViewRow>
-</Alloy>
