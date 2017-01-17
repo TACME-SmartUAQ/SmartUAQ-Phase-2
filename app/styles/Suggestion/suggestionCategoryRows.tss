@@ -1,0 +1,28 @@
+"#tblRow":{
+  height: 50,
+  left : 0,
+  right : 0,
+  backgroundColor: "white"
+}
+"#viewNotificationRow":{
+	left:0,
+	right:0,
+	backgroundColor:'white',
+	height:50
+}
+"#labelSuggestion" : {
+  	left : 5,
+	right : 5,
+	// borderColor:'red',
+	height : Titanium.UI.SIZE,
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	font : Alloy.Globals.path.font15,
+	color : Alloy.Globals.path.blackColor,
+},
+"#viewLine":{
+	left : 0,
+	right : 0,
+	bottom : 0,
+	height : 1,
+	backgroundColor : Alloy.Globals.path.grayColor
+}

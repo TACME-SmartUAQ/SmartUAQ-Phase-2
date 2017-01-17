@@ -1,0 +1,62 @@
+"#viewHappinessMain":{
+	backgroundColor : "#80000000",
+	height : "100%",
+	width : "100%",
+	visible : false,
+	opacity : 0
+}
+"#viewHappinessIndicator":{
+	top : 44,
+	width : "100%",
+	height : Titanium.UI.SIZE,
+	backgroundColor : Alloy.Globals.path.darkestGray,
+	layout : "vertical",
+}
+
+"#viewHappinessIndicator[if=Alloy.Globals.isIOS7Plus]":{
+	top : 64,
+}
+
+"#labelTitle":{
+	top : 5,
+	height : Titanium.UI.SIZE,
+	font : Alloy.Globals.path.font16,
+	color : Alloy.Globals.path.whiteColor,
+	backgroundColor : "transparent",
+	left : 15,
+	right : 15,
+}
+
+"#viewHappines":{
+	top : 5,
+	height : 100,
+	bottom : 10,
+	backgroundImage : Alloy.Globals.path.bgNotification
+}
+
+"#viewBack":{
+	layout : "horizontal",
+	width : Titanium.UI.SIZE,
+	height : Titanium.UI.SIZE,
+	backgroundColor : "transparent"
+}
+
+".imageViewProperty":{
+	left : 10,
+	right : 10,
+	height : 60,
+	width : 60,
+	backgroundColor : "transparent"
+}
+"#imageviewHappy":{
+	image : Alloy.Globals.path.imgHappy,
+	rateId : 2
+}
+"#imageviewAverage":{
+	image : Alloy.Globals.path.imgAverage,
+	rateId : 1
+}
+"#imageviewSad":{
+	image : Alloy.Globals.path.imgSad,
+	rateId: 0
+}

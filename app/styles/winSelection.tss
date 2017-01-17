@@ -1,0 +1,16 @@
+
+"#winSelection[platform=ios]":{
+	modal: true,
+	navBarHidden: true,
+}
+"#winSelection[platform=android]":{
+	navBarHidden: true
+}
+
+"#tblSelection":{
+//	height : "100%",
+	width : "100%",
+	bottom : 0,
+	backgroundColor : Alloy.Globals.path.whiteColor,
+	separatorStyle : 0
+}

@@ -1,0 +1,151 @@
+".lblNavTermsCondtion":{
+	left: 40,
+	right: 40,//60,
+	height: "100%",
+	font: Alloy.Globals.path.font16,
+	color: "white",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	horizontalWrap: false,
+}
+
+".lblboldHeader":{	
+	right:0,
+	top:20,
+	left: undefined,
+	touchEnabled : false,
+	font : Alloy.Globals.path.font15,
+	color: Alloy.Globals.path.whiteColor,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+".lblboldHeader[if=Alloy.Globals.isEnglish]":{
+	left : 0,
+	right : undefined,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+"#scrollviewTerms":{
+	left:20,
+	right:20,
+	disableBounce:true
+}
+".lbldescription":{	
+	right:0,
+	left: undefined,
+	top:20,
+	touchEnabled : false,
+	font : Alloy.Globals.path.font12,
+	color: Alloy.Globals.path.darkGray,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+
+".lbldescription[if=Alloy.Globals.isEnglish]":{
+	left : 0,
+	
+	right : undefined,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+".lbldescriptionBullet":{
+	right:20,
+	left: undefined,
+	top:20,
+	touchEnabled : false,
+	font : Alloy.Globals.path.font12,
+	color: Alloy.Globals.path.darkGray,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+".lbldescriptionBullet[if=Alloy.Globals.isEnglish]":{
+	left : 20,
+	
+	right : undefined,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT
+} 
+".lbldescriptionNote":{
+	right:0,
+	left: undefined,
+	top:20,
+	touchEnabled : false,
+	font : Alloy.Globals.path.font10,
+	color: Alloy.Globals.path.whiteColor,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+".lbldescriptionNote[if=Alloy.Globals.isEnglish]":{
+	left : 0,
+	
+	right : undefined,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+"#viewButtonBack":{
+	top : 25,
+	bottom : 15,
+	left : 15,
+	right : 15,
+	height : 35,
+	backgroundColor : "transparent"
+}
+"#btnAccept":{
+	right : 0,
+	left : undefined, 
+	width : "48%",
+	height : "100%",
+	borderRadius : 5,
+	title : Alloy.Globals.selectedLanguage.accept,
+	// backgroundColor : Alloy.Globals.path.titleRedColor,
+	backgroundImage : Alloy.Globals.path.btnRed,
+	color : Alloy.Globals.path.whiteColor,
+	font : Alloy.Globals.path.font15,	
+}
+"#btnAccept[if=Alloy.Globals.isEnglish]":{
+	right : undefined,
+	left : 0,
+}
+"#btnDecline":{
+	right : undefined,
+	left : 0,
+	width : "48%",
+	height : "100%",
+	borderRadius : 5,
+	title : Alloy.Globals.selectedLanguage.decline,
+	backgroundImage : Alloy.Globals.path.btnGray,
+	color : Alloy.Globals.path.whiteColor,
+	font : Alloy.Globals.path.font15,	
+}
+"#btnDecline[if=Alloy.Globals.isEnglish]":{
+	right : 0,
+	left : undefined,	
+}
+/*
+"#viewSubscription":{
+	top : 10,
+	left : 0,
+	right : 0,
+	height : 20,
+	isSelected : false,
+	backgroundColor : "transparent"
+}
+"#imageviewSubscription":{
+	right : 0,
+	left : undefined,
+	width : 20,
+	height : 20,
+	touchEnabled:false,
+	backgroundImage : Alloy.Globals.path.checkInactive,
+	isSelected : false,
+}
+"#imageviewSubscription[if=Alloy.Globals.isEnglish]":{
+	right : undefined,
+	left : 0,
+}
+"#labelSubscription":{
+	right : 28,
+	left : undefined,
+	height : Ti.UI.SIZE,
+	font : Alloy.Globals.path.font12,
+	color: Alloy.Globals.path.darkGray,
+	touchEnabled:false,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+"#labelSubscription[if=Alloy.Globals.isEnglish]":{
+	right : undefined,
+	left : 28,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+*/

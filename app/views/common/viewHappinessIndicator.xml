@@ -1,0 +1,14 @@
+<Alloy>
+	<View id="viewHappinessMain" onClick="closeView">
+		<View id="viewHappinessIndicator">
+			<Label id="labelTitle"></Label>
+			<View id="viewHappines">
+				<View id="viewBack">
+					<ImageView id="imageviewHappy" class="imageViewProperty" onClick="submitRating"></ImageView>
+					<ImageView id="imageviewAverage" class="imageViewProperty" onClick="submitRating"></ImageView>
+					<ImageView id="imageviewSad" class="imageViewProperty" onClick="submitRating"></ImageView>
+				</View>
+			</View>
+		</View>
+	</View>
+</Alloy>

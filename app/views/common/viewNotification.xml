@@ -1,0 +1,11 @@
+<Alloy>
+	<View id="viewNotificationMain" onClick="closeView">
+		<View id="viewNotification">
+			<Label id="labelTitle"></Label>
+			<View id="viewListBack">
+				<Label id="lblEmptyNotifications"></Label>
+				<TableView id="tableviewAllNotifications" onClick="_eventTableAllNotificationClicked"></TableView>
+			</View>
+		</View>
+	</View>
+</Alloy>

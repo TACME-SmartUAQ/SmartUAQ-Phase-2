@@ -1,0 +1,195 @@
+
+"#scrollviewSuggestion":{
+	layout : "vertical",
+	backgroundColor : Alloy.Globals.path.whiteColor,
+	left : 0,
+	right : 0,	
+}
+"#viewAttachment":{
+	top : 5,
+	height : 50,
+	left : 15,
+	right : 15,
+	backgroundColor : "transparent",
+}
+
+".textViewCompress":{
+	width: "100%",
+	borderColor: Alloy.Globals.path.grayColor,
+	borderWidth: 1,
+	borderRadius : 5,
+	right: 0,
+	left:undefined
+}
+
+".textViewCompress[if=Alloy.Globals.isEnglish]":{
+	left: 5,
+	right : undefined,
+	width:"98%"
+}
+
+"#scrollviewAttacment":{
+	left : 0,
+	right : 40,
+	height : "100%",
+	layout : "horizontal",
+	backgroundColor : "transparent",
+	horizontalWrap : false,
+}
+
+"#imageviewAdd":{
+	right : 0,
+	left : undefined,
+	height : 35,
+	width : 35,
+	image : Alloy.Globals.path.icnAdd
+}
+
+"#labelLocationTitle":{
+	top : 8,
+	left : 15,
+	right : 15,
+	font : Alloy.Globals.path.font16,
+	color : Alloy.Globals.path.darkGray,
+	text : Alloy.Globals.selectedLanguage.location,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+"#labelLocationTitle[if=Alloy.Globals.isEnglish]":{
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+"#viewLocation":{
+	top : 5,
+	left : 15,
+	right : 15,
+	height : 60,
+	borderRadius : 3,
+	backgroundColor : Alloy.Globals.path.titleRedColor
+}
+
+"#labelLocationValue":{
+	left : 10,
+	right : 10,
+	top : 3,
+	bottom : 3,
+	font : Alloy.Globals.path.font16,
+	color : Alloy.Globals.path.whiteColor,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+"#labelLocationValue[if=Alloy.Globals.isEnglish]":{
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+
+"#textAreaBackView":{
+	top : 20,
+	left : 15,
+	right : 15,
+	height : 120,
+	borderColor: Alloy.Globals.path.grayColor,
+	borderWidth: 1,
+	borderRadius : 5,
+}
+
+".textBackView" :{
+	top : 15
+}
+
+".validField":{
+	top:5,
+	left:10,
+	width:15,
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
+
+".viewTextField":{
+	height:Ti.UI.SIZE
+}
+
+"#textfieldEmail":{
+	keyboardType:Titanium.UI.KEYBOARD_EMAIL
+}
+
+"#textfieldMobile":{	
+  keyboardType:Titanium.UI.KEYBOARD_NUMBER_PAD
+}
+
+"#commentView":{
+	top : 0,
+	left : 0,
+	right : 0,
+	height : 30,
+	borderRadius : 5,
+	backgroundColor : Alloy.Globals.path.grayColor,
+}
+
+"#labelComments":{
+	left : 10,
+	right : 10,
+	font : Alloy.Globals.path.font15,
+	color : Alloy.Globals.path.whiteColor,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+}
+"#labelComments[if=Alloy.Globals.isEnglish]":{
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+"#textAreaComments":{
+	left : 10,
+	right : 10,
+	top : 35,
+	bottom : 5,
+	font: Alloy.Globals.path.font14,
+	color: Alloy.Globals.path.darkGray,
+	returnKeyType:Titanium.UI.RETURNKEY_NEXT,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	borderColor: 'transparent',
+	backgroundColor: 'transparent'
+}
+"#textAreaComments[platform=android]":{
+	left : 0,
+	right : 0,
+}
+"#textAreaComments[if=Alloy.Globals.isEnglish]":{
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+"#viewButtonBack":{
+	top : 40,
+	bottom : 15,
+	left : 15,
+	right : 15,
+	height : 35,
+	backgroundColor : "transparent"
+}
+"#btnSubmit":{
+	right : 0,
+	left : undefined, 
+	width : "48%",
+	height : "100%",
+	borderRadius : 5,
+	title : Alloy.Globals.selectedLanguage.submit,
+	// backgroundColor : Alloy.Globals.path.titleRedColor,
+	backgroundImage : Alloy.Globals.path.btnRed,
+	color : Alloy.Globals.path.whiteColor,
+	font : Alloy.Globals.path.font15,	
+}
+"#btnSubmit[if=Alloy.Globals.isEnglish]":{
+	right : undefined,
+	left : 0,
+}
+"#btnCancel":{
+	right : undefined,
+	left : 0,
+	width : "48%",
+	height : "100%",
+	borderRadius : 5,
+	title : Alloy.Globals.selectedLanguage.cancel,
+	backgroundImage : Alloy.Globals.path.btnGray,
+	color : Alloy.Globals.path.whiteColor,
+	font : Alloy.Globals.path.font15,	
+}
+"#btnCancel[if=Alloy.Globals.isEnglish]":{
+	right : 0,
+	left : undefined,	
+}

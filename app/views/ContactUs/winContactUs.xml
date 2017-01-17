@@ -1,0 +1,71 @@
+<Alloy>
+	<Window id="winContactUs" class="win" onOpen="winOpen" onFocus="winFocus">
+		<View id="leftView" class="leftPanelProperty">
+			<Require src="common/viewLeftPanel" id="viewLeftPanel"></Require>
+		</View>
+		<View id="mainView" class="verticalMainContainer">
+			<View id="navBarBackView" class="navBarBackViewProperty">
+				<View id="statusBar" class="statusBarProperty"></View>
+				<View class="navBarProperty">
+					<View class="backView" onClick="closeWindow">
+						<ImageView class="imgBackBtn"></ImageView>
+					</View>
+					<Label id="lblNavTitle" class="lblNavTitleProperty" onClick="closeWindow"></Label>
+					<Require src="common/viewNavigationTools" id="viewNavigationTools"></Require>
+				</View>
+			</View>
+			<ScrollView id="scrollviewContactUs">
+				<View id="viewDetail">
+					<View id="viewTitleBack">
+						<Label id="labelTitle"></Label>
+						<!-- <Require src="common/viewShareOptions" id="viewShareOption"></Require> -->
+					</View>
+					<ImageView id="imageviewSeparator"></ImageView>
+					<View width="100%" height="70">
+						<View id="viewWorkingHour">
+							<Label id="labelWorkingHour" class="titleProperty"></Label>
+							<Label id="labelWorkingHourValue" class="valueProperty"></Label>
+						</View>
+						<View id="viewRamadanHour">
+							<Label id="labelRamadanHour" class="titleProperty">Ramadan Hours</Label>
+							<Label id="labelRamadanHourValue" class="valueProperty">From 7:00 AM to 2:00 PM</Label>
+						</View>
+					</View>
+					
+					<Label id="labelContactUs" class="titleProperty"></Label>
+					<View id="viewPhoneNumber" class="detailViewProperty">
+						<ImageView id="imageviewPhone" class="iconProperty"></ImageView>
+						<Label id="labelPhoneNumber" class="detailLabelProperty" onClick="contactUAQ" color="#00bfff"></Label>
+					</View>
+					<View id="viewFaxNumber" class="detailViewProperty">
+						<ImageView id="imageviewFax" class="iconProperty"></ImageView>
+						<Label id="labelFaxNumber" class="detailLabelProperty"></Label>
+					</View>
+					<View id="viewMail" class="detailViewProperty">
+						<ImageView id="imageviewMail" class="iconProperty"></ImageView>
+						<Label id="labelMail" class="detailLabelProperty" onClick="mailUAQ" color="#00bfff"></Label>
+					</View>
+					<View id="viewWeb" class="detailViewProperty">
+						<ImageView id="imageviewWeb" class="iconProperty"></ImageView>
+						<Label id="labelWeb" class="detailLabelProperty" onClick="openWebsite" color="#00bfff"></Label>
+					</View>
+					<View id="viewFacebook" class="detailViewProperty">
+						<ImageView id="imageviewFacebook" class="iconProperty"></ImageView>
+						<Label id="labelFacebook" class="detailLabelProperty" onClick="openFaceBook" color="#00bfff"></Label>
+					</View>
+					<View id="viewTwitter" class="detailViewProperty">
+						<ImageView id="imageviewTwitter" class="iconProperty"></ImageView>
+						<Label id="labelTwitter" class="detailLabelProperty" onClick="openTwitter" color="#00bfff"></Label>
+					</View>
+					<ImageView id="imageviewMapSeparator"></ImageView>
+				</View>
+				<Module id="mapview" module="ti.map" onClick="mapClicked"/>
+			</ScrollView>
+		</View>
+		<Require src="common/viewHappinessIndicator" id="viewHappinessIndicator"></Require>
+		<Require src="common/viewNotification" id="viewNotification"></Require>
+		<View id="backView" class="backViewProperty"></View>
+		<Require src="common/viewBottomMenu" id="viewBottomMenu"></Require>
+		<View id="viewTransparent" class="transparentViewProperty" onClick="closeLeftPanel"></View>
+	</Window>
+</Alloy>

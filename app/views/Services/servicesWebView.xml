@@ -1,0 +1,25 @@
+<Alloy>
+	<Window id="winServices" class="win" onOpen="winOpen" onFocus="winFocus">
+		<View id="leftView" class="leftPanelProperty">
+			<Require src="common/viewLeftPanel" id="viewLeftPanel"></Require>
+		</View>
+		<View id="mainView" class="mainContainer" layout="vertical">
+			<View id="navBarBackView" class="navBarBackViewProperty">
+				<View id="statusBar" class="statusBarProperty"></View>
+				<View class="navBarProperty">
+					<View class="backView" onClick="closeWindow">
+						<ImageView class="imgBackBtn"></ImageView>
+					</View>
+					<Label id="lblNavTitle" class="lblNavTitleProperty" onClick="closeWindow"></Label>
+					<Require src="common/viewNavigationTools" id="viewNavigationTools"></Require>
+				</View>
+			</View>
+	       <WebView id="webView"/>
+		</View>
+		<Require src="common/viewHappinessIndicator" id="viewHappinessIndicator"></Require>
+		<Require src="common/viewNotification" id="viewNotification"></Require>
+		<View id="backView" class="backViewProperty"></View>
+		<!-- <Require src="common/viewBottomMenu" id="viewBottomMenu"></Require> -->
+		<View id="viewTransparent" class="transparentViewProperty" onClick="closeLeftPanel"></View>
+	</Window>
+</Alloy>

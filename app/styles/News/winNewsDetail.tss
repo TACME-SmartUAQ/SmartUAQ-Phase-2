@@ -1,0 +1,89 @@
+
+"#imageviewNews":{
+	top: 0,
+	height: 200,
+	width: "100%",
+	backgroundColor: "transparent",
+	defaultImage:Alloy.Globals.path.imgDepartmentLogo
+}
+
+"#scrollviewDetail":{
+	top: 0,
+	bottom: 0,
+	// left : 15,
+	// right : 15,
+	layout: "vertical",
+	height:Ti.UI.SIZE
+}
+
+"#labelTitle":{
+	left : 15,
+	right : 15,
+	height : Titanium.UI.SIZE,	
+	font : Alloy.Globals.path.font16,
+	color : Alloy.Globals.path.whiteColor,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+}
+"#labelTitle[if=Alloy.Globals.isEnglish]":{
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT,
+}
+
+"#viewDate":{
+	top : 8,
+	left : 15,
+	right : 15,
+	height : Titanium.UI.SIZE,
+	backgroundColor : "transparent",
+}
+
+"#imageviewDateIcon":{
+	right : 0,
+	left : undefined,
+	height : 20,
+	width : 20,
+	backgroundColor : "transparent",
+	image : Alloy.Globals.path.icnCalenderWhite,
+}
+"#imageviewDateIcon[if=Alloy.Globals.isEnglish]":{
+	right : undefined,
+	left : 0,
+}
+
+"#labelDate":{
+	right : 33,
+	left : undefined,
+	font : Alloy.Globals.path.font13,
+	color : Alloy.Globals.path.whiteColor,
+	width : Titanium.UI.SIZE,
+}
+"#labelDate[if=Alloy.Globals.isEnglish]":{
+	right : undefined,
+	left : 33,
+}
+"#imageviewSeparator":{
+	top : 8,
+	backgroundColor : Alloy.Globals.path.grayColor,
+	height : 1,
+	left : 15,
+	right : 15,
+}
+
+"#newsWebView":{
+    touchEnabled:true,
+    backgroundColor:"transparent",
+    horizontalWrap:true,
+    left:15,right:20,
+    bottom:0,
+    top: 5,
+    enableZoomControls:false,
+}
+
+"#scrlView":{
+	top: 10,
+	scrollType:'vertical',
+	bottom: 0,
+	horizontalBounce:false,
+	verticalBounce:true,
+	contentWidth:100,
+	layout: "vertical"
+}

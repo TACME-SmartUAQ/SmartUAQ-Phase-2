@@ -1,0 +1,40 @@
+"#winLanguage" :{
+	backgroundImage : Alloy.Globals.path.bgLogin,
+}
+
+"#btnView" :{
+	bottom : 50,
+	width : Titanium.UI.SIZE,
+	height : Titanium.UI.SIZE,
+	layout : "horizontal",
+//	backgroundColor : "blue"
+}
+
+
+"#viewEnglish" :{
+	height : 35,
+	width : 120,
+//	backgroundColor : "red",
+	backgroundImage : Alloy.Globals.path.btnRed
+}
+
+
+"#viewArabic" :{
+	left : 20,
+	height : 35,
+	width : 120,
+//	backgroundColor : "green",
+	backgroundImage : Alloy.Globals.path.btnGreen
+}
+
+"#lblEnglish" :{
+	text : "English",
+	color : "white",
+	touchEnabled : false,
+}
+
+"#lblArabic" :{
+	text : "عربي",
+	color : "white",
+	touchEnabled : false,
+}

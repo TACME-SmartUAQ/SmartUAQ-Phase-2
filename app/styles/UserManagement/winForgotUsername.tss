@@ -1,0 +1,289 @@
+"#winForgotUsername":{
+	backgroundImage: Alloy.Globals.path.bgLogin,
+	// backgroundColor: "white",
+	layout:'vertical'
+}
+
+
+/*ForgotUserName*/
+/*
+"#viewForgotUserName":{
+	
+	height: Titanium.UI.FILL,
+	width: "100%",
+	layout: "vertical",
+	// opacity:1,
+	backgroundColor: "transparent",
+	top: "22%"
+}
+
+
+".forgetUserView":{
+	top: 13,
+	width: 250,
+	height: 30
+}
+
+"#imgIndividual":{
+	image:Alloy.Globals.path.radioActive,
+	left: undefined,
+	right: 0,
+	width: 20,
+	height: 20
+}
+
+"#mainView":{
+	height:Ti.UI.SIZE,
+	top:0
+}
+
+"#imgIndividual[if=Alloy.Globals.isEnglish]":{
+	right: undefined,
+	left: 0
+}
+
+".iconProperty":{
+	left: undefined,
+	right: 15,
+	height: 20,
+	width: 20,
+	backgroundColor: "transparent"
+}
+
+".iconProperty[if=Alloy.Globals.isEnglish]":{
+	left: 15,
+	right: undefined
+}
+
+"#lblIndividual":{
+	color: 'black',
+	text:Alloy.Globals.selectedLanguage.individual,
+	right: 30,
+	left: undefined,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+
+"#lblIndividual[if=Alloy.Globals.isEnglish]":{
+	left: 30,
+	right: undefined
+}
+
+".forgetUserView1":{
+	top: 13,
+	width: 250,
+	height: 30
+}
+
+"#imgEstablishment":{
+	image:Alloy.Globals.path.radioInactive,
+	left: undefined,
+	right: 0,
+	width: 20,
+	height: 20
+}
+
+"#imgEstablishment[if=Alloy.Globals.isEnglish]":{
+	right: undefined,
+	left: 0
+}
+
+"#lblEstablishment":{
+	color: 'black',
+	text:Alloy.Globals.selectedLanguage.establishment,
+	right: 30,
+	left: undefined,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+
+"#lblEstablishment[if=Alloy.Globals.isEnglish]":{
+	left: 30,
+	right: undefined
+}
+
+"#userEmiratesView":{
+	top: 13,
+	width: 250,
+	height: 45,
+	borderColor: Alloy.Globals.path.grayColor,
+	backgroundColor: Alloy.Globals.path.whiteColor,
+	borderWidth: 1,
+	borderRadius: 5
+}
+
+"#txtfieldEmirateId":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+"#txtfieldEmirateId[platform=android]":{
+	height: "120%"
+}
+
+"#txtfieldEmirateId[if=Alloy.Globals.isEnglish]":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+".LoginTxtfldProperty":{
+	left: 15,
+	right: 10,
+	font: Alloy.Globals.path.font14,
+	color: Alloy.Globals.path.darkGray,
+	returnKeyType:Titanium.UI.RETURNKEY_DONE,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	borderColor: 'transparent',
+	backgroundColor: 'transparent',
+	height: "100%"
+}
+
+"#labelUserMandatory":{
+	width: 280,
+	top: 13,
+	color:'black',
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	font:Alloy.Globals.path.font15
+}
+"#userPassportView":{
+	top: 13,
+	width: 250,
+	height: 45,
+	borderColor: Alloy.Globals.path.grayColor,
+	backgroundColor: Alloy.Globals.path.whiteColor,
+	borderWidth: 1,
+	borderRadius: 5
+}
+"#txtfieldPassport":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+"#txtfieldPassport[platform=android]":{
+	height: "120%"
+}
+"#txtfieldPassport[if=Alloy.Globals.isEnglish]":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+"#userLicenseUserView":{
+	top: 13,
+	height: 45,
+	width: 280
+}
+
+".validField":{
+	top: 0,
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	color: 'red'
+}
+"#userLicenseView":{
+	//top : 13,
+	width: 250,
+	height: 45,
+	borderColor: Alloy.Globals.path.grayColor,
+	backgroundColor: Alloy.Globals.path.whiteColor,
+	borderWidth: 1,
+	borderRadius: 5
+}
+
+"#txtfieldLicense":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+"#txtfieldLicense[platform=android]":{
+	height: "120%"
+}
+"#txtfieldLicense[if=Alloy.Globals.isEnglish]":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+".LoginTxtfldProperty[platform=android]":{
+	height : "120%"
+}
+".LoginTxtfldProperty[if=Alloy.Globals.isEnglish]":{
+	left : 10,
+	right : 15,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+}
+"#userEmailView":{
+	top:13,
+	height:60,
+	width:280
+}
+
+"#userEmailView":{
+	top:13,
+	height:60,
+	width:280
+}
+"#userEmailUserView":{
+	// top : 13,
+	width : 250,
+	height : 45,
+	borderColor: Alloy.Globals.path.grayColor,
+	backgroundColor : Alloy.Globals.path.whiteColor,
+	borderWidth: 1,
+	borderRadius : 5
+}
+"#txtfieldMail":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+}
+"#txtfieldMail[platform=android]":{
+	height : "120%"
+}
+"#txtfieldMail[if=Alloy.Globals.isEnglish]":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+}
+"#viewMobile":{
+	top:13,
+	height:60,
+	width:280
+}
+"#userMobileView":{
+	// top : 13,
+	width : 250,
+	height : 45,
+	borderColor: Alloy.Globals.path.grayColor,
+	backgroundColor : Alloy.Globals.path.whiteColor,
+	borderWidth: 1,
+	borderRadius : 5
+}
+"#txtfieldMobile":{	
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT	
+}
+"#txtfieldMobile[platform=android]":{
+	height : "120%"
+}
+"#txtfieldMobile[if=Alloy.Globals.isEnglish]":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+}
+"#viewForgotUserNameButtonBack":{
+	top : 15,
+	bottom : 15,
+	width : 250,
+	height : 35,
+	backgroundColor : "transparent"
+}
+"#btnUserSubmit":{
+	right : 0,
+	left : undefined, 
+	width : "48%",
+	height : "100%",
+	borderRadius : 5,
+	title : Alloy.Globals.selectedLanguage.submit,
+	backgroundImage : Alloy.Globals.path.btnRed,
+	color : Alloy.Globals.path.whiteColor,
+	font : Alloy.Globals.path.font15	
+}
+
+"#btnUserSubmit[if=Alloy.Globals.isEnglish]":{
+	right : undefined,
+	left : 0,
+}
+
+"#btnCancel":{
+	right : undefined,
+	left : 0,
+	width : "48%",
+	height : "100%",
+	borderRadius : 5,
+	title : Alloy.Globals.selectedLanguage.cancel,
+	backgroundImage : Alloy.Globals.path.btnGreen,
+	color : Alloy.Globals.path.whiteColor,
+	font : Alloy.Globals.path.font15	
+}
+"#btnCancel[if=Alloy.Globals.isEnglish]":{
+	right : 0,
+	left : undefined,	
+}*/

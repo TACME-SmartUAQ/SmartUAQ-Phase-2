@@ -1,0 +1,53 @@
+"#tblRow" : {
+  height: Titanium.UI.SIZE,
+  left : 0,
+  right : 0,
+  backgroundColor: "transparent"
+  // hasChild:true
+},
+
+"#viewNotificationRow":{
+	left : 20,
+	right : 20,
+	height : Titanium.UI.SIZE,
+	layout : "vertical"
+}
+
+"#viewTitle":{
+	top : 10,
+	height : Titanium.UI.SIZE,
+	left : 0,
+	right : 0,
+}
+
+"#labelNotificationTitle":{
+	left : 0,
+	right : 60,
+	// borderColor:'red',
+	height : Titanium.UI.SIZE,
+	font : Alloy.Globals.path.font15,
+	color : Alloy.Globals.path.blackColor,
+}
+
+"#labelNofificationTime":{
+	right : 0,
+	width : Titanium.UI.SIZE,
+	font : Alloy.Globals.path.font13,
+	//color : Alloy.Globals.path.grayColor,
+	color:"#565656"
+}
+
+"#labelNotificationDescription":{
+	top : 3,
+	right : 0,
+	left : 0,
+	height : Titanium.UI.SIZE,
+	font : Alloy.Globals.path.font15,
+	color : "darkgray",//Alloy.Globals.path.darkestGray,
+},
+"#imageviewNotificationSeparator":{
+	top : 10,
+	width : "100%",
+	height : 1,
+	backgroundColor : "darkgray"//Alloy.Globals.path.darkestGray
+}

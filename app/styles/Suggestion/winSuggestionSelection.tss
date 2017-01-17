@@ -1,0 +1,19 @@
+
+"#winSuggestionSelection[platform=ios]":{
+	modal: true,
+	// backgroundColor:Alloy.Globals.path.whiteColor,
+	navBarHidden: true,
+}
+"#winSuggestionSelection[platform=android]":{
+	// backgroundColor:Alloy.Globals.path.whiteColor,
+	navBarHidden: true
+}
+
+"#tblSuggestionList":{
+	// height : Titanium.UI.SIZE,
+	width : "100%",
+	bottom : 0,
+	// height:"100%",
+	backgroundColor : Alloy.Globals.path.whiteColor,
+	separatorStyle : 0
+}

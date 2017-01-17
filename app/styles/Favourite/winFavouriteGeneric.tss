@@ -1,0 +1,9 @@
+"#tableviewFavouriteGeneric":{
+	left : 30,
+	right : 30,
+	top : 0,
+	bottom : 0,
+	separatorColor : "transparent",
+	backgroundColor : "transparent",
+	height:Ti.UI.SIZE
+}

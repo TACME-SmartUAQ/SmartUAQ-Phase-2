@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="winWebviewActiveSession" class="win" onOpen="winOpen" onFocus="winFocus" onBlur="winBlur">
+		<View id="mainView" class="mainContainer" layout="vertical" >
+			<View id="navBarBackView" class="navBarBackViewProperty">
+				<View id="statusBar" class="statusBarProperty"></View>
+				<View class="navBarProperty">
+					<View class="backView" onClick="closeWindow">
+						<ImageView class="imgBackBtn"></ImageView>
+					</View>
+					<Label id="lblNavTitle" class="lblNavTitleProperty" onClick="closeWindow"></Label>
+				</View>
+			</View>
+	       <WebView id="webView" top="0" left="0" right="10" height="5" />
+	       <View top="0" height="100%" width="100%" backgroundColor="transparent">
+	       		<ActivityIndicator id="actInd"></ActivityIndicator>
+	       </View>
+		</View>
+	</Window>
+</Alloy>

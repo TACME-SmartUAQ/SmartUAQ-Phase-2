@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme.NoActionBar" parent="@style/Theme.AppCompat">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="colorControlNormal">@color/colorControlNormal</item>
+		<item name="colorControlActivated">@color/colorControlActivated</item>
+		<item name="colorControlHighlight">@color/colorControlActivated</item>
+		<item name="colorSwitchThumbNormal">@color/colorAccent</item>
+		<item name="android:colorButtonNormal">@color/colorAccent</item>
+		<item name="android:colorEdgeEffect">@color/colorAccent</item>
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+		<item name="android:windowSoftInputMode">adjustPan</item>
+		<item name="editTextStyle">@style/appEditText</item>
+	</style>
+	<style name="Theme.NoActionBar.Translucent" parent="@style/Theme.AppCompat.Translucent">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+		<item name="android:windowSoftInputMode">adjustPan</item>
+		<!-- <item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:colorBackgroundCacheHint">@null</item> -->
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:editTextStyle">@style/appEditText</item>
+	</style>
+	<style name="appEditText" parent="@android:style/Widget.EditText">
+		<item name="colorControlNormal">@color/colorControlNormal</item>
+		<item name="colorControlActivated">@color/colorControlActivated</item>
+		<item name="colorControlHighlight">@color/colorPrimary</item>
+		<item name="android:background">@drawable/edittext_background</item>
+		<item name="android:textCursorDrawable">@null</item>
+		<item name="android:textColorHint">@color/edit_text_hint</item>
+		<item name="android:padding">5dp</item>
+	</style>
+</resources>

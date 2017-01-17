@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="win" id="winSuggestionSelection" onFocus="changeLanguage" layout="vertical">
+		<View id="navBarBackView" class="navBarBackViewProperty">
+			<View id="statusBar" class="statusBarProperty"></View>
+			<View class="navBarProperty">
+				<View class="backView" onClick="closeWindow">
+					<ImageView class="imgBackBtn"></ImageView>
+				</View>
+				<Label id="lblNavTitle" class="lblNavTitleProperty" onClick="closeWindow"></Label>
+			</View>
+		</View>
+		<TableView id="tblSuggestionList"></TableView>
+	</Window>
+</Alloy>

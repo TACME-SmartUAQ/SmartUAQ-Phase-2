@@ -1,0 +1,25 @@
+// "#listviewFavourite":{
+	// left : 30,
+	// right : 30,
+	// top : 0,
+	// bottom : 0,
+	// separatorColor : "transparent",
+	// backgroundColor : "transparent"
+// }
+
+"#tableviewFavourite":{
+	left : 30,
+	right : 30,
+	top : 0,
+	bottom : 0,
+	separatorColor : "transparent",
+	backgroundColor : "transparent",
+	height:Ti.UI.SIZE
+}
+
+// "#lblGovt":{
+	// textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	// font : Alloy.Globals.path.font15,
+	// color : Alloy.Globals.path.whiteColor,
+	// touchEnabled : false,
+// }

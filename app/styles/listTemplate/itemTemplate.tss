@@ -1,0 +1,790 @@
+"#itemTemplateNews":{
+	height: 125,
+	width: "100%",
+	backgroundColor: "transparent"
+}
+"#itemTemplateNews[platform=ios]":{
+	selectionStyle: 0
+}
+
+
+"#viewNewsRow":{
+	height: 110,
+	left: 15,
+	right: 15,
+	backgroundColor: "white"
+}
+
+"#imageviewNewsDetail":{
+	// right : 0,
+	// left : undefined,
+	height : 110,
+	width : 100,
+	backgroundColor : "gray",
+	touchEnabled : false,
+	defaultImage:Alloy.Globals.path.imgDepartmentLogo
+}
+
+"#imageviewEventDetail":{
+	// right : 0,
+	// left : undefined,
+	height : 120,
+	width : 100,
+	backgroundColor : "gray",
+	touchEnabled : false,
+	defaultImage:Alloy.Globals.path.imgDepartmentLogo
+}
+
+"#imageviewDetail[if=Alloy.Globals.isEnglish]":{
+	// right : undefined,
+	// left : 0,
+}
+
+"#viewDetail":{
+	// left : 20,
+	// right : 110,
+	height : Titanium.UI.SIZE,
+	layout : "vertical",
+	touchEnabled : false,
+}
+"#viewDetail[if=Alloy.Globals.isEnglish]":{
+	// left : 110,
+	// right : 20,
+}
+
+"#labelNewsTitle":{
+	left : 0,
+	right : 0,
+	height : 60,//Titanium.UI.SIZE,
+	font : Alloy.Globals.path.font16,
+	color : Alloy.Globals.path.titleRedColor,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	touchEnabled : false,
+	// verticalAlign : Titanium.UI.TEXT_VERTICAL_ALIGNMENT_BOTTOM,
+}
+
+"#labelNewsTitle[if=Alloy.Globals.isEnglish]":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+
+"#labelEventTitle":{
+	left : 0,
+	right : 0,
+	height : 40,//Titanium.UI.SIZE,
+	font : Alloy.Globals.path.font16,
+	color : Alloy.Globals.path.titleRedColor,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	touchEnabled : false,
+	// verticalAlign : Titanium.UI.TEXT_VERTICAL_ALIGNMENT_BOTTOM,
+}
+
+"#labelEventTitle[if=Alloy.Globals.isEnglish]":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+"#labelTitle":{
+	left: 0,
+	right: 0,
+	font: Alloy.Globals.path.font16,
+	color: Alloy.Globals.path.titleRedColor,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	touchEnabled: false
+}
+
+"#labelTitle[if=Alloy.Globals.isEnglish]":{
+		textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+	}
+
+"#imageviewSeparator":{
+	top : 8,
+	backgroundColor : "gray",
+	height : 1,
+	left : 0,
+	right : 0,
+	touchEnabled : false,
+}
+"#viewNewsDate":{
+	top : 8,
+	left : 0,
+	right : 0,
+	touchEnabled : false,
+	height : Titanium.UI.SIZE,
+	backgroundColor : "transparent",
+}
+"#imageviewDateIcon":{
+	// right : 0,
+	// left : undefined,
+	height : 15,
+	width : 15,
+	backgroundColor : "transparent",
+	image : Alloy.Globals.path.icnCalender,
+	touchEnabled : false,
+}
+"#imageviewDateIcon[if=Alloy.Globals.isEnglish]":{
+	// right : undefined,
+	// left : 0,
+}
+
+"#labelDate":{
+	// right : 20,
+	// left : undefined,
+	font : Alloy.Globals.path.font13,
+	color : Alloy.Globals.path.darkGray,
+	width : Titanium.UI.SIZE,
+	touchEnabled : false,
+}
+"#labelDate[if=Alloy.Globals.isEnglish]":{
+	// right : undefined,
+	// left : 20,
+}
+
+/*
+ * Events
+ */
+
+
+"#itemTemplateEvents":{
+	height: 130,
+	width: "100%",
+	backgroundColor: "transparent"
+}
+"#itemTemplateEvents[platform=ios]":{
+	selectionStyle: 0
+}
+
+"#viewEventRow":{
+	height: 120,
+	left: 15,
+	right: 15,
+	backgroundColor: "white"
+}
+"#viewEventDate":{
+	top : 2,
+	left : 0,
+	right : 0,
+	touchEnabled : false,
+	height : Titanium.UI.SIZE,
+	backgroundColor : "transparent",
+}
+"#viewLocation":{
+	top : 8,
+	left : 0,
+	right : 0,
+	touchEnabled : false,
+	height : Titanium.UI.SIZE,
+	backgroundColor : "transparent",
+}
+"#imageviewLocationIcon":{
+	// right : 0,
+	// left : undefined,
+	height : 15,
+	width : 15,
+	backgroundColor : "transparent",
+	image : Alloy.Globals.path.icnLocation,
+	touchEnabled : false,
+}
+"#imageviewLocationIcon[if=Alloy.Globals.isEnglish]":{
+	// right : undefined,
+	// left : 0,
+}
+
+"#labelLocation":{
+	// right : 20,
+	// left : 0,
+	height:30,
+	font : Alloy.Globals.path.font13,
+	color : Alloy.Globals.path.darkGray,
+	width : Titanium.UI.SIZE,
+	touchEnabled : false,
+	ellipsize:true
+	// textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+}
+"#labelLocation[if=Alloy.Globals.isEnglish]":{
+	// right : 0,
+	// left : 20,
+	// textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT,
+}
+
+/*
+ * Department
+ * 
+ * 
+ */
+
+"#itemTemplateDepartment":{
+	height: 160,
+	width: "100%",
+	backgroundColor: "transparent"
+}
+"#itemTemplateDepartment[platform=ios]":{
+	selectionStyle: 0
+}
+
+"#viewDepartmentRow":{
+	height: 140,
+	left: 0,
+	right: 0,
+	backgroundColor: "white"
+}
+"#imageviewDepartment":{
+	height : 100,
+	width : 100,
+	backgroundColor : "gray",
+	defaultImage:Alloy.Globals.path.imgDepartmentLogo,
+	touchEnabled : false,
+}
+
+"#viewDepartmentDetail":{
+	left : 20,
+	right : 110,
+	height : Titanium.UI.SIZE,
+	layout : "vertical",
+	touchEnabled : false,
+}
+"#viewDepartmentDetail[if=Alloy.Globals.isEnglish]":{
+	left : 110,
+	right : 20,
+}
+"#labelDescription":{
+	left : 0,
+	right : 0,
+	height : 36,//Titanium.UI.SIZE,
+	font : Alloy.Globals.path.font14,
+	color : Alloy.Globals.path.darkGray,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	touchEnabled : false,
+	// verticalAlign : Titanium.UI.TEXT_VERTICAL_ALIGNMENT_BOTTOM,
+}
+"#labelDescription[if=Alloy.Globals.isEnglish]":{
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+"#viewButtons":{
+	height : Titanium.UI.SIZE,
+	width : Titanium.UI.SIZE,
+	top : 8,
+	horizontalWrap : false,
+	layout : "horizontal",
+}
+
+".buttonProperty":{
+	left : 6,
+	width : 20,
+	height : 20,
+	backgroundColor : "transparent",
+}
+
+"#imageviewCall":{
+	image : Alloy.Globals.path.icnCallGray
+}
+"#imageviewFax":{
+	image : Alloy.Globals.path.icnFaxGray
+}
+"#imageviewMail":{
+	image : Alloy.Globals.path.icnMailGray
+}
+"#imageviewWeb":{
+	image : Alloy.Globals.path.icnWebGray
+}
+"#imageviewFacebook":{
+	image : Alloy.Globals.path.icnFacebookGray
+}
+"#imageviewTwitter":{
+	image : Alloy.Globals.path.icnTwitterGray
+}
+
+
+/*
+ * 
+ * Favourite
+ * 
+ */
+
+"#itemTemplateFavourite":{
+	height: 60,
+	left : 0,
+	right : 0,
+	backgroundColor: "transparent"
+}
+"#itemTemplateFavourite[platform=ios]":{
+	selectionStyle: 0
+}
+
+"#viewFavouriteRow":{
+	height : "100%",
+	width : "100%",
+	backgroundImage : Alloy.Globals.path.imgNormalRow
+}
+
+"#imageviewTopSeparator":{
+	top : 0,
+	width : "100%",
+	height : 1,
+	backgroundColor : Alloy.Globals.path.whiteColor
+}
+"#labelFavouriteTitle":{
+	top : 0,
+	bottom : 0,
+	left : 30,
+	right : 30,
+	font : Alloy.Globals.path.font15,
+	color : Alloy.Globals.path.whiteColor,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER	
+}
+
+"#imageviewDelete":{
+	height : 15,
+	width : 15,
+	// left : 0,
+	// right : undefined,
+	image : Alloy.Globals.path.imgDelete,
+	backgroundColor : "transparent",
+}
+"#imageviewDelete[if=Alloy.Globals.isEnglish]":{
+	// left : undefined,
+	// right : 0,
+}
+
+
+"#imageviewBottomSeparator":{
+	bottom : 0,
+	width : "100%",
+	height : 1,
+	backgroundColor : Alloy.Globals.path.whiteColor
+}
+
+
+/*
+ * 
+ * NOTIFICATION
+ * 
+ */
+
+/*
+ * 
+ * Favourite
+ * 
+ */
+"#itemTemplateNotification":{
+	height: Titanium.UI.SIZE,
+	left : 0,
+	right : 0,
+	backgroundColor: "transparent"
+}
+"#itemTemplateNotification[platform=ios]":{
+	selectionStyle: 0
+}
+
+"#viewNotificationRow":{
+	left : 20,
+	right : 20,
+	height : Titanium.UI.SIZE,
+	layout : "vertical"
+}
+
+"#viewTitle":{
+	top : 10,
+	height : Titanium.UI.SIZE,
+	left : 0,
+	right : 0,
+}
+
+"#labelNotificationTitle":{
+	// left : 0,
+	// right : 60,
+	height : Titanium.UI.SIZE,
+	font : Alloy.Globals.path.font15,
+	color : Alloy.Globals.path.blackColor,
+}
+
+"#labelNofificationTime":{
+	// right : 0,
+	width : Titanium.UI.SIZE,
+	font : Alloy.Globals.path.font13,
+	color : Alloy.Globals.path.grayColor,
+}
+
+"#labelNotificationDescription":{
+	top : 3,
+	right : 0,
+	left : 0,
+	height : Titanium.UI.SIZE,
+	font : Alloy.Globals.path.font15,
+	color : Alloy.Globals.path.darkestGray,
+}
+
+
+"#imageviewNotificationSeparator":{
+	top : 10,
+	width : "100%",
+	height : 1,
+	backgroundColor : Alloy.Globals.path.darkestGray
+}
+
+/*
+ * 
+ * Services
+ * 
+ */
+"#itemTemplateServices":{
+	height: 45,
+	left : 0,
+	right : 0,
+	backgroundColor: "#80FFFFFF"
+}
+"#itemTemplateServices[platform=ios]":{
+	selectionStyle: 0
+}
+
+"#viewServicesRow":{
+	height : 45,
+	width : "100%",
+	backgroundColor : "#80FFFFFF"
+}
+
+/*
+ * Services listing
+ */
+"#labelServicesTitle":{
+	top : 0,
+	bottom : 0,
+	width:"86%",
+	font : Alloy.Globals.path.font14,
+	color : Alloy.Globals.path.blackColor,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER	
+}
+"#labelServicesLIVE":{
+	height:"18dp",
+	text:"Active",
+	width:'10%',
+	color:'black',
+	borderRadius:5,
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	backgroundColor : "#F3CF00",
+	font : Alloy.Globals.path.font8Bold,
+}
+// "#viewGreenIcon":{
+	// height:"45dp",
+	// width:"30dp",
+	// borderRadius:5,
+	// backgroundColor : "#F3CF00",
+	// textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER
+// }
+
+/*
+ * 
+ * Funeral
+ * 
+ */
+
+"#itemTemplateFuneral":{
+	height: 35,
+	left : 0,
+	right : 0,
+	//backgroundColor: "#80FFFFFF"
+}
+"#itemTemplatePaymentHistory":{
+	height: 35,
+	left : 0,
+	right : 0,
+	//backgroundColor: "#80FFFFFF"
+}
+"#itemTemplateServices[platform=ios]":{
+	selectionStyle: 0
+}
+
+"#viewFuneralRow":{
+	height : 35,
+	width : "100%",
+	//backgroundColor : "#80FFFFFF"
+}
+"#viewPaymentHistoryRow":{
+	height : 35,
+	width : "100%",
+	//backgroundColor : "#80FFFFFF"
+}
+"#viewFuneralBottomRow":{
+	height : 35,
+	width : "100%",
+	backgroundColor : "transparent"
+}
+
+"#labelFuneralTitle":{
+	top : 0,
+	bottom : 0,
+	font : Alloy.Globals.path.font15,
+	color : Alloy.Globals.path.blackColor,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT	
+}
+"#labelPaymentHistoryTitle":{
+	top : 0,
+	bottom : 0,
+	font : Alloy.Globals.path.font15,
+	color : Alloy.Globals.path.blackColor,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT	
+}
+/*
+ * 
+ * My services
+ * 
+ */
+"#itemTemplateMyrequestDropdown":{
+	height: 40,
+	left : 0,
+	right : 0,
+	backgroundColor: "#80FFFFFF"
+}
+
+"#itemTemplateMyrequestDropdown[platform=ios]":{
+	selectionStyle: 0
+}
+
+"#viewMyrequestRow":{
+	height : 40,
+	width : "100%",
+	
+	backgroundColor : "#80FFFFFF"
+}
+"#btnActionMyRequest": {
+	width : "48%",
+	height : 40,
+	borderRadius : 5,
+	title : Alloy.Globals.selectedLanguage.submit,
+	// backgroundColor : Alloy.Globals.path.titleRedColor,
+	backgroundImage : Alloy.Globals.path.btnRed,
+	color : Alloy.Globals.path.whiteColor,
+	font : Alloy.Globals.path.font15,	
+}
+
+"#labelMyRequestTitle":{
+	top : 0,
+	bottom : 0,
+	left : 10,
+	right : 10,
+	font : Alloy.Globals.path.font15,
+	color : Alloy.Globals.path.blackColor,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT	
+}
+
+/*
+ * 
+ * my services
+ * 
+ */
+
+"#itemTemplateMyservice":{
+	height: Titanium.UI.SIZE,
+	left : 0,
+	right : 0,
+	backgroundColor: Alloy.Globals.path.lightgray,
+}
+"#itemTemplateMyservice[platform=ios]":{
+	selectionStyle: 0
+}
+
+"#viewMyRequestRow":{
+	left : 10,
+	right : 10,
+	height : Titanium.UI.SIZE,
+	layout : "vertical"
+}
+
+"#viewTitleMyrequest":{
+	top : 10,
+	height : Titanium.UI.SIZE,
+	left : 0,
+	right : 0,
+}
+
+"#labelMyRequestTitle":{
+	// left : 0,
+	// right : 60,
+	height : Titanium.UI.SIZE,
+	font : Alloy.Globals.path.font15,
+	color : Alloy.Globals.path.blackColor,
+}
+
+"#labelMyRequestDate":{
+	// right : 0,
+	width : Titanium.UI.SIZE,
+	font : Alloy.Globals.path.font13,
+	color : Alloy.Globals.path.grayColor,
+}
+
+"#labelMyRequestDescription":{
+	top : 3,
+	right : 0,
+	left : 0,
+	height : Titanium.UI.SIZE,
+	font : Alloy.Globals.path.font15,
+	color : Alloy.Globals.path.darkestGray,
+}
+ 
+ 
+"#imageviewMyRequestSeparator":{
+	top : 10,
+	width : "100%",
+	height : 1,
+	backgroundColor : Alloy.Globals.path.grayColor,
+}
+
+/*
+ * 
+ * more
+ * 
+ */
+
+"#more":{
+	height: Titanium.UI.SIZE,
+	left : 0,
+	right : 0,
+	backgroundColor: Alloy.Globals.path.lightgray,
+}
+
+"#more[platform=ios]":{
+	selectionStyle: 0
+}
+
+"#viewMore":{
+	height : 40,
+	left : 15,
+	right : 15,
+	backgroundColor : "#80FFFFFF"
+}
+
+"#viewMoreLabel":{
+	font : Alloy.Globals.path.font15,
+	color : Alloy.Globals.path.blackColor,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT	,
+	color : Alloy.Globals.path.titleRedColor,
+}
+
+
+/*
+ * 
+ * Funeral Webview
+ * 
+ */
+
+"#funeralWebview":{
+	height: Titanium.UI.SIZE,
+	left : 0,
+	right : 0,
+	enableZoomControls:false,
+	backgroundColor: Alloy.Globals.path.lightgray,
+}
+
+"#funeralWebview[platform=ios]":{
+	width : "90%"
+}
+"#funeralWebview[platform=android]":{
+	width : "100%"
+}
+
+"#funeralWebview[platform=ios]":{
+	selectionStyle: 0
+}
+
+"#funWebView":{
+	width : "100%",
+	left : 15,
+	right : 15
+}
+
+"#viewWeb":{
+	backgroundColor : "#80FFFFFF",
+	width : "100%",
+	//height : Titanium.UI.SIZE
+}
+
+
+
+/*
+ * 
+ * Funeral Header
+ * 
+ */
+
+"#funeralHeaderView":{
+	height: Titanium.UI.SIZE,
+	left : 0,
+	right : 0,
+	backgroundColor: Alloy.Globals.path.lightgray,
+}
+
+"#funeralHeaderView[platform=ios]":{
+	selectionStyle: 0
+}
+"#paymentDetailView":{
+	height: Titanium.UI.SIZE,
+	left : 0,
+	right : 0,
+	backgroundColor: Alloy.Globals.path.lightgray,
+}
+
+"#paymentDetailView[platform=ios]":{
+	selectionStyle: 0
+}
+
+"#headerView":{
+	width : "100%",
+	height : 30,
+	backgroundColor : "#80FFFFFF",
+}
+"#mainView":{
+	width : "100%",
+	height : Titanium.UI.SIZE,
+	layout:'vertical',
+	backgroundColor : "#80FFFFFF",
+}
+"#bodyView":{
+	width : 200,
+	height : 30,
+}
+
+"#titleLabel":{
+	height : 30,
+	width : 100,
+	left: 5,
+	color : "black"
+}
+
+"#leftO":{
+	height : 30,
+	width : 40,
+	color : Alloy.Globals.path.titleRedColor,
+	font : Alloy.Globals.path.font22Bold,
+}
+
+"#rightO":{
+	height : 30,
+	width : 40,
+	left: 5,
+	color : Alloy.Globals.path.titleRedColor,
+	font : Alloy.Globals.path.font22Bold,
+}
+
+
+
+
+
+
+".labelDetailLabels":{
+	color:'black',
+	left:'10dp',
+	top:'5dp',
+	width:"90%",
+	height:'30dp',
+	font : Alloy.Globals.path.font14Bold,
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+".labelDetailValues":{
+	color:'black',
+	left:'10dp',
+	top:'-5dp',
+	width:"90%",
+	height:'30dp',
+	font : Alloy.Globals.path.font14,
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_LEFT
+}

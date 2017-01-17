@@ -1,0 +1,25 @@
+"#viewShareOption":{
+	left : 0,
+	right : undefined,
+	width : Titanium.UI.SIZE,
+	height : 40,
+	layout : "horizontal"
+}
+"#viewShareOption[if=Alloy.Globals.isEnglish]":{
+	left : undefined,
+	right : 0,
+}
+
+".viewTopIconProperty":{
+	height : "100%",
+	width : 40,
+	backgroundColor : "transparent",
+}
+
+".imgTopIconProperty":{
+	height : 25,
+	width : 25,
+	backgroundColor : "transparent",
+}
+
+

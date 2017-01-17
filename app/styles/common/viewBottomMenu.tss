@@ -1,0 +1,17 @@
+"#viewBottomMenu" :{
+	height : Titanium.UI.SIZE,
+	width : Titanium.UI.SIZE,
+//	backgroundColor : "green",
+	bottom : 0,
+	left : 0,
+	zIndex : 120,
+}
+
+"#backView" :{
+	height : "100%",
+	width : "100%",
+	backgroundColor : "black",
+	opacity : 0.5,
+	visible : false,
+	zIndex : 110,
+}

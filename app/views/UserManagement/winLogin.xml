@@ -1,0 +1,27 @@
+<Alloy>
+	<Window id="winLogin" class="win" onOpen="winOpen">
+		<View id="viewLogin">
+			<View class="loginBackView">
+				<ImageView id="imageviewUserName" class="iconProperty"></ImageView>
+				<TextField id="textfieldUserName" class="LoginTxtProperty"/>
+			</View>
+			<View class="loginBackView">
+				<ImageView id="imageviewPassword" class="iconProperty"></ImageView>
+				<TextField id="textfieldPassword" class="LoginTxtProperty"/>
+			</View>
+			<View id="viewButtonBack">
+				<Button id="btnSignIn" onClick="SubmitLogin"></Button>
+				<Button id="btnRegister" onClick="UserRegistration"></Button>
+			</View>
+			<Label id="labelForgotUsername" onClick="showForgotUsernamePopup"></Label>
+			<Label id="labelForgotPassword" onClick="showForgotPopup"></Label>
+			<Label id="activateAccountlbl" onClick="activateAccount"></Label>
+			<Label id="labelSkip" onClick="SkipLogin"></Label>
+		</View>
+		
+		<ScrollableView id="scrllableviewHelpScreen" backgroundColor="transparent" opacity="0" onScroll="_eventScrollableViewScroll"></ScrollableView>
+		<Label id="lblFinishRight5" class="classLblFinishRight1" onClick="_eventCloseHelpScreen" opacity="0" color="#B43335"></Label>
+		
+		<WebView id="webViewLogout" top="0" left="0" right="0" height="1" />
+	</Window>
+</Alloy>

@@ -1,0 +1,17 @@
+
+"#webView":{
+	height :Titanium.UI.FILL,
+	hideLoadIndicator:true,
+	ignoreSslError:true,
+	width : "100%",
+}
+"#lblNavTitle":{
+	left: 40,
+	// right: 40,//60,
+	width:100,
+	height: "100%",
+	font: Alloy.Globals.path.font16,
+	color: "white",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	horizontalWrap: false,	
+}

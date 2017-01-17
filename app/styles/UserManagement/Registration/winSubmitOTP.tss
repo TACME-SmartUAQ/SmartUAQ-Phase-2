@@ -1,0 +1,243 @@
+
+"#viewButtonBack":{
+	top : 25,
+	bottom : 15,
+	left : 15,
+	right : 15,
+	height : 35,
+	backgroundColor : "transparent"
+}
+"#btnSubmit":{
+	
+	width : "90%",
+	height : "100%",
+	borderRadius : 5,
+	
+	title : Alloy.Globals.selectedLanguage.submit,
+	// backgroundColor : Alloy.Globals.path.titleRedColor,
+	backgroundImage : Alloy.Globals.path.btnRed,
+	color : Alloy.Globals.path.whiteColor,
+	font : Alloy.Globals.path.font15,	
+}
+
+"#otpViewContainer": {
+	layout : "vertical",
+	backgroundColor : Alloy.Globals.path.whiteColor,
+	left : 0,
+	right : 0,	
+}
+"#activateContainerView": {
+	layout : "vertical",
+	backgroundColor : Alloy.Globals.path.whiteColor,
+	//borderColor: "red",
+	left : 0,
+	right : 0,	
+}
+
+"#scrollviewActivate":{
+	layout : "vertical",
+	left : 0,
+	right : 0,
+	//borderColor : "red",	
+}
+"#sendanotherOTPId": {
+	font: Alloy.Globals.path.font14,
+	color: Alloy.Globals.path.darkGray,
+	top:20
+}
+".viewTextFieldOTP":{
+	height:45
+}
+"#userRadioButtons": {
+	top : 10,	
+    layout : "vertical",
+	height : 90,
+	width : "90%",
+	borderColor : Alloy.Globals.path.grayColor,
+	borderWidth : 1,
+	borderRadius:4
+}
+".radioButtonViewContainer":{
+	top : 10,
+	left : 15,
+	right : 15,
+	height : 30,
+	//borderColor: "pink",
+	//layout : "horizontal",
+	backgroundColor : "transparent"
+}
+"#viewEstablishSetting":{
+	isSelected : false,
+}
+"#viewIndividualSetting":{	
+	isSelected : true,
+}
+"#lblIndividualUser":{	
+	right:0,
+	left: undefined,
+	touchEnabled : false,
+	font : Alloy.Globals.path.font14,
+	color: Alloy.Globals.path.darkGray,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+"#lblIndividualUser[if=Alloy.Globals.isEnglish]":{
+	left : 0,
+	right : undefined,
+}
+"#imageviewIndividualUser": {
+	left:10,
+	right: undefined,
+	width : 20,
+	height : 20,
+	borderRadius:10,
+	touchEnabled : false,
+	//backgroundColor : "green",
+	backgroundImage : Alloy.Globals.path.radioActive,
+	isSelected : true,
+	
+}
+"#imageviewIndividualUser[if=Alloy.Globals.isEnglish]":{
+	right : 10,
+	left : undefined,
+}
+".hintClass": {
+	top:10,
+	right : 0,
+	left : 0,
+	height : Ti.UI.SIZE,
+	touchEnabled : false,
+	font : Alloy.Globals.path.font14,
+	color: Alloy.Globals.path.darkGray,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
+
+
+"#lblEstablishUser":{
+	right : 0,
+	left : undefined,
+	height : Ti.UI.SIZE,
+	touchEnabled : false,
+	font : Alloy.Globals.path.font14,
+	color: Alloy.Globals.path.darkGray,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+"#lblEstablishUser[if=Alloy.Globals.isEnglish]":{
+	left : 0,
+	right : undefined,
+}
+"#imageviewEstablishUser": {
+	left:10,
+	right : undefined,
+	width : 20,
+	height : 20,
+	borderRadius:10,
+	touchEnabled : false,
+	backgroundImage : Alloy.Globals.path.radioInactive,
+	//backgroundColor : "red",
+	isSelected : false,
+	
+}
+"#imageviewEstablishUser[if=Alloy.Globals.isEnglish]":{
+	right : 10,
+	left : undefined,
+}
+"#individualView": {
+	layout : "vertical",
+	//borderColor: "yellow",
+	height : 180,
+	backgroundColor : Alloy.Globals.path.whiteColor,
+	left : 0,
+	right : 0,	
+}
+"#establishedView": {
+	layout : "vertical",
+	//borderColor: "cyan",
+	height : 180,
+	backgroundColor : Alloy.Globals.path.whiteColor,
+	left : 0,
+	right : 0,	
+}
+
+".txtfldPropertySubmit":{
+	left: 10,
+	right: 10,
+	height : "100%",
+	width:"80%",
+	font: Alloy.Globals.path.font14,
+	color: Alloy.Globals.path.darkGray,
+	returnKeyType:Titanium.UI.RETURNKEY_DONE,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	borderColor: 'transparent',
+	backgroundColor: 'transparent'
+}
+".txtfldPropertySubmit[platform=android]":{
+	left: 10,
+	right: 10,
+	height : "120%"
+}
+".txtfldPropertySubmit[if=Alloy.Globals.isEnglish]":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+".txtfldDropDownPropertyOTPEm":{
+	left: 12,
+	right: 12,
+	height : "100%",
+	width:"85%",
+	touchEnabled : false,
+	font: Alloy.Globals.path.font14,
+	color: Alloy.Globals.path.darkGray,
+	returnKeyType:Titanium.UI.RETURNKEY_DONE,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	borderColor: 'transparent',
+	backgroundColor: 'transparent'
+}
+".txtfldDropDownPropertyOTPEm[platform=android]":{
+	left: 12,
+	right: 12
+}
+".txtfldDropDownPropertyOTPEm[if=Alloy.Globals.isEnglish platform=ios]":{
+	left: 12,
+	right: 12,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+".txtfldDropDownPropertyOTPEm[if=Alloy.Globals.isEnglish platform=android]":{
+	left: 12,
+	right:12,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+".txtfldDropDownPropertyOTP":{
+	left: 12,
+	right: 12,
+	height : "100%",
+	width:"85%",
+	//touchEnabled : false,
+	font: Alloy.Globals.path.font14,
+	color: Alloy.Globals.path.darkGray,
+	returnKeyType:Titanium.UI.RETURNKEY_DONE,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	borderColor: 'transparent',
+	backgroundColor: 'transparent'
+}
+".txtfldDropDownPropertyOTP[platform=android]":{
+	left: 12,
+	right: 12
+}
+".txtfldDropDownPropertyOTP[if=Alloy.Globals.isEnglish platform=ios]":{
+	left: 12,
+	right: 12,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+".txtfldDropDownPropertyOTP[if=Alloy.Globals.isEnglish platform=android]":{
+	left: 12,
+	right:12,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+".textSpaceViewOTP":{
+	top: 10,
+	bottom : 10,
+	width : Titanium.UI.SIZE,
+	height: 45
+}

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/UAQ/!svn/ver/437/Development/Mobile/UAQ/UAQ/platform/android/res/anim
+END
+anim_fade_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/UAQ/!svn/ver/437/Development/Mobile/UAQ/UAQ/platform/android/res/anim/anim_fade_out.xml
+END
+anim_fade_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/UAQ/!svn/ver/437/Development/Mobile/UAQ/UAQ/platform/android/res/anim/anim_fade_in.xml
+END
+anim_slide_in_right.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/UAQ/!svn/ver/437/Development/Mobile/UAQ/UAQ/platform/android/res/anim/anim_slide_in_right.xml
+END
+anim_slide_out_right.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/UAQ/!svn/ver/437/Development/Mobile/UAQ/UAQ/platform/android/res/anim/anim_slide_out_right.xml
+END
+anim_slide_out_left.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/UAQ/!svn/ver/437/Development/Mobile/UAQ/UAQ/platform/android/res/anim/anim_slide_out_left.xml
+END
+anim_slide_in_left.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/UAQ/!svn/ver/437/Development/Mobile/UAQ/UAQ/platform/android/res/anim/anim_slide_in_left.xml
+END

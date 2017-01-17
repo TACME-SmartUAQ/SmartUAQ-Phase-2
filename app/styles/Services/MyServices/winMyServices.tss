@@ -1,0 +1,50 @@
+
+
+"#headerView":{
+	width: "100%",
+	height: 60,
+	backgroundImage : Alloy.Globals.path.imgNormalRow,
+	//borderColor:'red',
+	top : 20
+}
+
+"#headerImage":{
+	backgroundImage : Alloy.Globals.path.icnServiceHeader,
+	top : -80,
+	width : 40,
+	height : 40
+}
+
+"#headerLabel":{
+	color:"white",
+	font : Alloy.Globals.path.font15,
+}
+
+"#noRecordsFound":{
+	color:"white",
+	font : Alloy.Globals.path.font13,
+}
+
+".mainViewProperty":{
+	top : 70,
+	left : 0,
+	bottom:10,
+	right : 0,
+	//layout : "vertical"	
+}
+"#viewRequestParent":{
+	//visible : true,
+}
+/*"#lblViewPaymentHistory":{
+	bottom:10,
+	right:'5dp',
+	zIndex:545465,
+	// borderColor:'red',
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	text:Alloy.Globals.selectedLanguage.viewMyPayment,
+	height:'30dp',
+	font : Alloy.Globals.path.font12Bold,
+	color:'white',
+	width:Titanium.UI.SIZE
+}
+*/ 

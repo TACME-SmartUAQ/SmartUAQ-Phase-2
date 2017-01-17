@@ -1,0 +1,133 @@
+"#activationFormView": {
+	layout : "vertical",
+	backgroundColor : Alloy.Globals.path.whiteColor,
+	//borderColor: "red",
+	left : 0,
+	right : 0,	
+}
+
+"#labelContainerView": {
+	//layout : "horizontal",
+	backgroundColor : Alloy.Globals.path.whiteColor,
+	//borderColor: "red",
+	top:10,
+	left : 15,
+	right : 15,	
+	height:20
+}
+"#accountDetailsIndividualView": {
+	layout : "vertical",
+	backgroundColor : Alloy.Globals.path.whiteColor,
+	//borderColor: "blue",
+	left : 0,
+	right : 0,	
+}
+"#establishAccountDetailsView": {
+	layout : "vertical",
+	backgroundColor : Alloy.Globals.path.whiteColor,
+	//borderColor: "pink",
+	
+	left : 0,
+	right : 0,
+}
+".actFromLabelTxtField":{
+	right:8,
+	left: undefined,
+	font : Alloy.Globals.path.font14,
+	color: Alloy.Globals.path.darkGray,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+".actFromLabelTxtField[if=Alloy.Globals.isEnglish]":{
+	left : 8,
+	right : undefined,
+}
+".validFeildclass": {
+	
+	right:0,
+	left: undefined,
+	font : Alloy.Globals.path.font14,
+	color: Alloy.Globals.path.redColor,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT
+}
+".validFeildclass[if=Alloy.Globals.isEnglish]":{
+	left : 0,
+	right : undefined,
+}
+"#btnSubmit":{
+	//right : 0,
+	//left : undefined, 
+	width : "95%",
+	height : "100%",
+	borderRadius : 5,
+	title : Alloy.Globals.selectedLanguage.submit,
+	// backgroundColor : Alloy.Globals.path.titleRedColor,
+	backgroundImage : Alloy.Globals.path.btnRed,
+	color : Alloy.Globals.path.whiteColor,
+	font : Alloy.Globals.path.font15,	
+}
+"#btnSubmit[if=Alloy.Globals.isEnglish]":{
+	///right : undefined,
+	//left : 0,
+}
+"#viewButtonBack":{
+	top : 25,
+	bottom : 15,
+	left : 15,
+	right : 15,
+	height : 35,
+	backgroundColor : "transparent"
+}
+".textBackViewActivation":{
+	top: 3,
+	left: 15,
+	right: 15,
+	borderColor: Alloy.Globals.path.grayColor,
+	backgroundColor : "#D6D6D6",
+	borderWidth: 1,
+	borderRadius : 5,
+	height: 35
+}
+".textBackViewActivationBg":{
+	top: 3,
+	left: 15,
+	right: 15,
+	borderColor: Alloy.Globals.path.grayColor,
+	borderWidth: 1,
+	borderRadius : 5,
+	height: 35
+}
+".hintTextLabel": {
+	color : Alloy.Globals.path.darkGray,
+	font : Alloy.Globals.path.font8,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	left : undefined,
+	right: 0,	
+}
+".hintTextLabel[if=Alloy.Globals.isEnglish]":{
+	right : undefined,
+	left : 0,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+".txtfldPropertyACT":{
+	left: 10,
+	right: 10,
+	height : "100%",
+	//width:"80%",
+	font: Alloy.Globals.path.font14,
+	color: Alloy.Globals.path.darkGray,
+	returnKeyType:Titanium.UI.RETURNKEY_DONE,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	borderColor: 'transparent',
+	backgroundColor: 'transparent'
+}
+".txtfldPropertyACT[platform=android]":{
+	left: 10,
+	right: 10,
+	height : "120%"
+}
+".txtfldPropertyACT[if=Alloy.Globals.isEnglish]":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	left: 10,
+	right: 10,
+}

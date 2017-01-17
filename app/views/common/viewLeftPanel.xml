@@ -1,0 +1,71 @@
+<Alloy>
+	<View id="viewLeftPanel">
+		
+		<View id="viewUpper">
+			<View id="viewName">
+				<View id="viewProfile" >
+					<ImageView id="imageViewProfile"></ImageView>
+				</View>
+				<!-- <Label id="labelEdit"  visible="false"></Label> -->
+				<Label id="labelUsername" onClick="openProfile"></Label>
+				
+			</View>
+			<View id="viewLogout" onClick="doLogin">
+				<Label id="labelLogout"></Label>
+			</View>	
+		</View>
+		<View id="viewMiddle">
+			<View class="viewSeparatorProperty"></View>
+			<View id="viewHome" class="viewProperty" onClick="onHome">
+				<ImageView id="imageViewHome" class="imageViewProperty"></ImageView>
+				<Label id="labelHome" class="labelProperty"></Label>
+			</View>
+			<View class="viewSeparatorProperty"></View>
+			<View id="viewSuggestion" class="viewProperty" onClick="openMySuggestion">
+				<ImageView id="imageViewSuggestion" class="imageViewProperty"></ImageView>
+				<Label id="labelSuggestion" class="labelProperty"></Label>
+			</View>
+			
+			<View class="viewSeparatorProperty" id="hideLineService"></View>
+			<View id="viewServices" class="viewProperty" onClick="openMyServices">
+				<ImageView id="imageViewServices" class="imageViewProperty"></ImageView>
+				<Label id="labelServices" class="labelProperty"></Label>
+			</View>
+			<View id="viewPaymentHistory" class="viewProperty" onClick="_eventClickViewPayment">
+				<ImageView id="imageViewPaymentHistory" class="imageViewProperty"></ImageView>
+				<Label id="labelPaymentHistory" class="labelProperty"></Label>
+			</View>
+			<View class="viewSeparatorProperty"></View>
+			
+			<View id="viewHelp" class="viewProperty" onClick="openHelp">
+				<ImageView id="imageViewHelp" class="imageViewProperty"></ImageView>
+				<Label id="labelHelp" class="labelProperty"></Label>
+			</View>
+			<View class="viewSeparatorProperty"></View>
+			<View id="viewShare" class="viewProperty" onClick="openAppShare">
+				<ImageView id="imageViewShare" class="imageViewProperty"></ImageView>
+				<Label id="labelShare" class="labelProperty"></Label>
+			</View>
+			<View class="viewSeparatorProperty"></View>
+			<View id="viewLangauge" class="viewProperty" onClick="changeLanguage">
+				<ImageView id="imageViewLanguage" class="imageViewProperty"></ImageView>
+				<Label id="labelLanguage" class="labelProperty"></Label>
+			</View>		
+			<View class="viewSeparatorProperty"></View>
+		</View>
+		<View id="viewBottom">
+			<View id="viewMenuDirection" class="viewBottomProperty">
+				<Label id="labelMenu" class="labelBottomProperty"></Label>
+				<View id="viewDirection" onClick="changeMenuDirection">
+					<Label id="labelMenuDirection" class="labelInnerProperty"></Label>
+				</View>	
+			</View>
+			<View id="viewPushNotification" class="viewBottomProperty">
+				<Label id="labelPushNotification" class="labelBottomProperty"></Label>
+				<View id="viewNotification" onClick="setNotification">
+					<Label id="labelNotification" class="labelInnerProperty"></Label>
+				</View>
+			</View>
+		</View>	
+	</View>
+</Alloy>

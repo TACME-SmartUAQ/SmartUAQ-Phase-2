@@ -1,0 +1,40 @@
+"#headerView":{
+	width: "100%",
+	height: 60,
+	backgroundImage : Alloy.Globals.path.imgNormalRow,
+	top : 20
+}
+"#mainView":{
+	height : "100%",
+	width : "100%",
+	backgroundImage : Alloy.Globals.path.bg,
+}
+"#headerImage":{
+	backgroundImage : Alloy.Globals.path.icnJnazahHeader,
+	top : -80,
+	width : 40,
+	height : 40
+}
+
+"#headerLabel":{
+	color:"white",
+	font : Alloy.Globals.path.font15,
+}
+
+".mainViewProperty":{
+	top : 60,
+	left : 8,
+	right : 8,
+	layout : "vertical"	,
+	
+}
+
+"#viewJnazahParent":{
+	visible : true,
+}
+
+"#viewJnazahList":{
+	height : "100%",
+	bottom : 0,
+	
+}
